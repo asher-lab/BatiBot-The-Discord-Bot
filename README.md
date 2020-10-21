@@ -14,16 +14,14 @@ Install all needed packages by running:
 Note: You can also use virtual environment in Python if you prefer so. I reccomend doing so, to properly manage packages in python.
 ```python3 -m venv myenv```
 
-Create a file named ```.env```within the same folder
+To know the values for:<br>
+```DISCORD_TOKEN```: Navigate into Discord's Developer page, select your bot and copy the bot's token.<br>
+```DISCORD_USER```: Right click your profile picture in developer page then copy your user id. You must note that only  the numerical part must be copied, after the symbol ``` '#' ``` (e.g. BatiBot#<b>111</b>)'. <br>
 
-├── app<br>
-│   ├── <b>.env</b><br>
-|   ├── .env.sample<br>
-│   └── bot.py
 
-Edit .env file and set up using by changing    ```{your-bot-token}``` and ```{your-user-id}```
-To access the values
-Please refer to .env.sample  and Pleas e check for reference: https://realpython.com/how-to-make-a-discord-bot-python/
+  
+
+Refer to : https://realpython.com/how-to-make-a-discord-bot-python/
 
 
 Run the bot by using the following command:
@@ -56,7 +54,7 @@ Please Check the CONTRIBUTING.md for more details on contributing.
 | -b                                  | when the branch does not exist, make one. Used in conjunction with git checkout. |
 | {YourName}-Branch                   | name of the branch you are pertaining to in the command.                         |
 
-# Future Changes and Wants
+# Future Changes and Wants 
     - Make Bot Mode like an actual bot, reacting to common messages that needs to be responded.
     - Shift to user and bot mode in any form of time, it is not only limited to after a new member joining
     - MAke a channel where they can talk to the bot asking some common or repetitive questions, if it is not in this channel the bot does not reply appropriately.
