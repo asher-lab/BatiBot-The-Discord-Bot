@@ -14,8 +14,22 @@ Install all needed packages by running:
 Note: You can also use virtual environment in Python if you prefer so. I reccomend doing so, to properly manage packages in python.
 ```python3 -m venv myenv```
 
+Create a file named ```.env```within the same folder
+
+├── app<br>
+│   ├── <b>.env</b><br>
+|   ├── .env.sample<br>
+│   └── bot.py
+
+Edit .env file and set up using by changing    ```{your-bot-token}``` and ```{your-user-id}```
+To access the values
+Please refer to .env.sample  and Pleas e check for reference: https://realpython.com/how-to-make-a-discord-bot-python/
+
+
 Run the bot by using the following command:
 ```python3 app/bot.py```
+
+
 
 # Contributing
 Please Check the CONTRIBUTING.md for more details on contributing.
